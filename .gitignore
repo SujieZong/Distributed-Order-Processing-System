@@ -1,0 +1,136 @@
+# Go
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Build artifacts
+main
+bootstrap
+order-api
+product-api
+order-receiver
+order-processor
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+.terraform.lock.hcl
+terraform.tfvars.backup
+*.auto.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Terraform reference (old configs)
+terraform-reference/
+
+# AWS
+.aws-sam/
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+lambdalog*.txt
+lamdalog*.txt
+
+# Load Testing / Reports
+reports/*.csv
+reports/*.html
+reports/*.json
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.alb_dns
+tmp/
+temp/
+
+# Documentation artifacts
+*.pdf
+*.docx
+HW7*.pdf
+HW7*.docx
+
+# Test results
+test_results/

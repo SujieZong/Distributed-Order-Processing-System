@@ -1,0 +1,22 @@
+# Build artifacts
+bootstrap
+function.zip
+*.zip
+
+# Test files
+test-event.json
+output.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+go.sum
+vendor/

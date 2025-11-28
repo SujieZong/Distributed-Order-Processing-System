@@ -1,0 +1,19 @@
+# Example Terraform Variables for Lambda Configuration
+# Copy this to terraform.tfvars and adjust values as needed
+
+# Enable Lambda function (set to true to deploy Lambda)
+enable_lambda = false
+
+# Lambda Configuration
+lambda_function_name = "order-processor-lambda"
+lambda_memory_size = 512  # MB
+lambda_timeout = 30       # seconds
+
+# Lambda deployment package path (relative to terraform directory)
+lambda_deployment_package = "../lambda/function.zip"
+
+# Note: Before enabling Lambda:
+# 1. Build the Lambda function: cd ../lambda && make package
+# 2. Verify function.zip exists
+# 3. Set enable_lambda = true
+# 4. Run: terraform apply

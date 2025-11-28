@@ -1,0 +1,4 @@
+# Locust Load Testing Requirements
+# Install with: pip install -r requirements.txt
+
+locust>=2.15.0
